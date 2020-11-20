@@ -1,0 +1,22 @@
+[
+    {
+        "check" : "false",
+        "todoName" : "Kocsit lemosni"
+    },
+    {
+        "check" : "false",
+        "todoName" : "Elmenni boltba"
+    },
+    {
+        "check" : "false",
+        "todoName" : "Fátvágni"
+    },
+    {
+        "check" : "false",
+        "todoName" : "Hó lapátolás"
+    },
+    {
+        "check" : "false",
+        "todoName" : "Táp cserélés"
+    }
+]
