@@ -1,22 +1,22 @@
 [
     {
-        "check" : "false",
-        "todoName" : "Kocsit lemosni"
+        "checked" : "false",
+        "task" : "Kocsit lemosni"
     },
     {
-        "check" : "false",
-        "todoName" : "Elmenni boltba"
+        "checked" : "false",
+        "task" : "Elmenni boltba"
     },
     {
-        "check" : "false",
-        "todoName" : "Fátvágni"
+        "checked" : "false",
+        "task" : "Fátvágni"
     },
     {
-        "check" : "false",
-        "todoName" : "Hó lapátolás"
+        "checked" : "true",
+        "task" : "Hó lapátolás"
     },
     {
-        "check" : "false",
-        "todoName" : "Táp cserélés"
+        "checked" : "false",
+        "task" : "Táp cserélés"
     }
 ]

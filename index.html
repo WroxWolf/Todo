@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo</title>
+    <link rel="stylesheet" href="my.css">
+    <title>Todo List</title>
 </head>
+
 <body>
-    <table>
-        <tr>
-            <th><input type="checkbox" id="cHead">Törlés</th>
-        </tr>
-        <tbody id="tbody"></tbody>
-    </table>
-    <script src="table.js"></script>
+    <label for="checkAll">Ősszes kijelőlés</label>
+    <input id="inputCheckAll" type="checkbox">
+    ||
+    <button id="buttonDeleteChecked">Kijelőltek tőrlése</button>
+    ||
+    <input type="text" id="inputAdd" placeholder="New Task">
+    <button id="buttonAdd">Hozzáad</button>
+
+    <div id="listBox">
+        <ul>
+            <li><input type="checkbox"> checkbox 1</li>
+            <li><input type="checkbox"> checkbox 2</li>
+            <li><input type="checkbox"> checkbox 3</li>
+            <li><input type="checkbox"> checkbox 4</li>
+        </ul>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./src/data.js"></script>
+    <script src="./src/Lista.js"></script>
     <script src="my.js"></script>
 </body>
+
 </html>
